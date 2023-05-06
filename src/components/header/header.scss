@@ -1,0 +1,15 @@
+.header {
+  padding-top: 38px;
+  padding-bottom: 42px;
+  transition: 0.4s linear;
+}
+.header-sticky {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  background-color: #1e1e1e9f;
+  border-bottom: 1px solid #7a7a7a;
+  z-index: 100;
+}

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./assets/fonts/GothamBook.ttf");
+}
+@font-face {
+  font-family: "Gotham-Light";
+  src: url("./assets/fonts/GothamLight.ttf");
+}
+@font-face {
+  font-family: "Gotham-Regular";
+  src: url("./assets/fonts/GothamRegular.otf");
+}
+@font-face {
+  font-family: "Proxima-Nova";
+  src: url("./assets/fonts/Proxima-Nova-Light.otf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: "Gotham" sans-serif;
+  font-style: normal;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  overflow-x: hidden;
+}

@@ -1,0 +1,18 @@
+.lanuage {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.4s ease;
+
+  & > button:hover {
+    opacity: 0.6;
+  }
+
+  & > span {
+    display: inline-block;
+    margin: 0 10px;
+    width: 1px;
+    height: 28px;
+    background-color: #7a7a7a;
+  }
+}

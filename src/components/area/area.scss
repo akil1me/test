@@ -1,0 +1,12 @@
+.area {
+  display: flex;
+  align-items: center;
+
+  & > span {
+    display: inline-block;
+    margin: 0 25px;
+    width: 1px;
+    height: 46px;
+    background-color: #fff;
+  }
+}

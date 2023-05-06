@@ -1,0 +1,171 @@
+.model {
+  margin-bottom: 40px;
+
+  &__content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 550px;
+  }
+  &__texts {
+    position: absolute;
+    transition: 1s ease;
+    right: 0;
+    top: 10%;
+  }
+
+  &__img {
+    cursor: pointer;
+    position: absolute;
+    width: 690px;
+    height: 398px;
+    transition: 1s ease;
+    background-image: url("../../assets/images/ca770.png");
+    background-repeat: no-repeat;
+    background-size: 1380px 790px;
+    background-position: center;
+    border-radius: 5px;
+    transition: 1s ease;
+    z-index: 5;
+  }
+  &__img1 {
+    top: 10%;
+  }
+  &__img-open1 {
+    top: -200px;
+  }
+  &__img:hover {
+    transform: scale(1.05);
+  }
+  &__img3 {
+    background-image: url("../../assets/images/ca760.png");
+  }
+  &__img4 {
+    background-image: url("../../assets/images/ca7460.png");
+    right: 0;
+    & ~ .model__texts {
+      left: 0;
+    }
+  }
+  &__img5 {
+    background-image: url("../../assets/images/ca7202e3.png");
+    & ~ .model__texts {
+      right: 0;
+    }
+  }
+  &__img6 {
+    width: 1015px;
+    background-image: url("../../assets/images/h7.png");
+    background-size: 1180px 450px;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    & ~ .model__texts6 {
+      position: absolute;
+      left: 13%;
+      top: 80%;
+      & > .model__title {
+        font-size: 150px;
+      }
+    }
+  }
+  &__img10 {
+    background-image: url("../../assets/images/ca773.png");
+    left: 0;
+  }
+  &__img-open10 {
+    z-index: 11;
+  }
+  &__img20 {
+    background-image: url("../../assets/images/ca630.png");
+    right: 0;
+  }
+  &__img-open {
+    width: 90%;
+    height: 690px;
+    background-size: 100% 100%;
+    box-shadow: inset 100px 101px 150px #272727;
+    padding: 20px;
+    transform: scale(1) !important;
+  }
+  &__img-open6 {
+    height: 540px !important;
+  }
+
+  &__title {
+    font-family: "Gotham-Light";
+    font-weight: 300;
+    font-size: 250px;
+  }
+  &__name {
+    font-family: "Proxima Nova";
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 61px;
+    margin-top: -20px;
+    margin-left: 10px;
+    color: #9e9e9e;
+  }
+}
+
+.texts-open {
+  right: -100px;
+  opacity: 0;
+}
+.texts-open4 {
+  left: -100px !important;
+}
+
+.texts-open5 {
+  right: -100px !important;
+}
+.texts-open6 {
+  top: 50% !important;
+}
+.model__title-inner {
+  font-size: 100px;
+}
+.model__name-inner {
+  font-size: 40px;
+}
+
+.content-2 {
+  position: relative;
+  display: flex;
+  height: 950px;
+}
+.model-exptra {
+  width: 690px;
+  left: 0;
+}
+.model-exptra:nth-child(2) {
+  margin-top: 116px;
+  transition: 1s ease;
+}
+
+.model-exptra20 {
+  margin-top: 0 !important;
+}
+.model__img-extra20 {
+  opacity: 0;
+  right: 200px;
+}
+.model__img-extra10 {
+  opacity: 0;
+  left: 200px;
+}
+
+.model__texts10 {
+  top: 40%;
+  left: 0;
+}
+.model__texts20 {
+  top: 52%;
+  right: 7%;
+}
+
+.texts-open-extra {
+  top: 35%;
+  opacity: 0;
+}
