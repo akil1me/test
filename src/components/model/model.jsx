@@ -28,7 +28,11 @@ export const Model = ({ id, title, model }) => {
   return (
     <li className="model" id={`${id}`}>
       {typeof id === "number" ? (
-        <div className="model__content">
+        <div
+          className={`model__content model__content${id} ${
+            isOpen && `model__content-open${id} `
+          }`}
+        >
           <div
             onClick={handleOpen}
             className={`model__img ${
